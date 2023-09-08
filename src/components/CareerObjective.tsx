@@ -4,7 +4,7 @@ const CareerObjective = () => {
     return (
         <div className="careen-objective">
             <h3>Career Objective</h3>
-            <span>{lang.careerObjective}</span>
+            <p>{lang.careerObjective}</p>
         </div>
     );
 };

@@ -1,0 +1,11 @@
+.projects {
+  ul {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    @media (max-width: 550px) {
+      grid-template-columns: 1fr;
+    }
+  }
+}

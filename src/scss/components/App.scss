@@ -1,6 +1,6 @@
 .app {
   padding-block: 30px;
-  & > * + * {
+  main > * + * {
     margin-top: 30px;
   }
 }

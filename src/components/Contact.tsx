@@ -9,9 +9,9 @@ const Contact = () => {
             <h3>Contact</h3>
             <ul className="contact__list">
                 <li><FontAwesomeIcon className="icon" icon={faEnvelope} /><a href={'mailto:' + lang.email}>{lang.email}</a></li>
-                <li><FontAwesomeIcon className="icon" icon={faTelegram} /><span>{lang.telegram}</span></li>
+                <li><FontAwesomeIcon className="icon" icon={faTelegram} /><a target="_blank" href={lang.telegram}>Telegram</a></li>
+                <li><FontAwesomeIcon className="icon" icon={faGithub} /><a target="_blank" href={lang.github}>Github</a></li>
                 <li><FontAwesomeIcon className="icon" icon={faLocationDot} /><span>{lang.location}</span></li>
-                <li><FontAwesomeIcon className="icon" icon={faGithub} /><a href={lang.github}>Github</a></li>
             </ul>
         </div>
     );

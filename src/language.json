@@ -2,8 +2,38 @@
   "fullname": "Timophey Ulezko",
   "jobTitle": "Frontend Web Developer",
   "email": "ulezko.2015@mail.ru",
-  "telegram": "@t_lezko",
+  "telegram": "https://t.me/t_lezko",
   "github": "https://github.com/lezko",
   "location": "Voronezh, Russia",
-  "careerObjective": ""
+  "careerObjective": "Highly-driven computer science student with growing knowledge in frontend web development.",
+  "education": "BS, Computer Science, Voronezh State University. September 2021 - current.",
+  "knowledgeAndConcepts": [
+    "SPA", "REST", "Virtual DOM"
+  ],
+  "skills": [
+    "ReactJS", "Typescript", "Redux", "React-Router", "HTML5/SCSS", "Git", "Docker"
+  ],
+  "projects": [
+    {
+      "title": "Todo App",
+      "description": "Classic educational fullstack project, but with multi-user support.",
+      "repoUrl": "https://github.com/lezko/react-todo-app",
+      "demoUrl": "https://sayntrywave-lezko-todo.web.app/",
+      "img": "todo-app.png"
+    },
+    {
+      "title": "Clock Training",
+      "description": "New time is randomly generated every round and shown on the clock. Your goal is to input it in digital format as quickly as You can.",
+      "repoUrl": "https://github.com/lezko/clock-training",
+      "demoUrl": "https://lezko.github.io/clock-training",
+      "img": "clock-training.png"
+    },
+    {
+      "title": "Rasp Explorer",
+      "description": "Handy viewer for .XLSX university time schedules.",
+      "repoUrl": "https://github.com/lezko/rasp-explorer",
+      "demoUrl": "https://lezko.github.io/rasp-explorer",
+      "img": "rasp-explorer.png"
+    }
+  ]
 }

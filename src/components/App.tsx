@@ -7,17 +7,21 @@ import Skills from 'components/Skills';
 import WorkExperience from 'components/WorkExperience';
 import Projects from 'components/Projects';
 
-const App = () => (
-    <div className="app container">
-        <Header />
-        <Contact />
-        <CareerObjective />
-        <Education />
-        <KnowledgeAndConcepts />
-        <Skills />
-        <WorkExperience />
-        <Projects />
-    </div>
-);
+function App() {
+    return (
+        <div className="app container">
+            <Header />
+            <main>
+                <Contact />
+                <CareerObjective />
+                <Education />
+                <KnowledgeAndConcepts />
+                <Skills />
+                <WorkExperience />
+                <Projects />
+            </main>
+        </div>
+    );
+}
 
 export default App;
