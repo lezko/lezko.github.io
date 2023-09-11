@@ -10,4 +10,13 @@
     margin-top: 10px;
     font-weight: 400;
   }
+  @media (max-width: 430px) {
+    &__fullname {
+      font-size: 2rem;
+    }
+    &__job-title {
+      font-size: 1.3rem;
+      margin-top: 5px;
+    }
+  }
 }
