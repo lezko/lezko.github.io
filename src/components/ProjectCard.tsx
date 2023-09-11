@@ -12,11 +12,13 @@ const ProjectCard: FC<ProjectCardProps> = ({title, description, repoUrl, demoUrl
     return (
         <div className="project-card">
             <img src={`img/${img}`} alt={title} />
-            <h5 className="project-card__title">{title}</h5>
-            <p className="project-card__description">{description}</p>
-            <div className="project-card__links">
-                <a target="_blank" href={repoUrl}>Source Code</a>
-                <a target="_blank" href={demoUrl}>Demo</a>
+            <div className="project-card__info">
+                <h5 className="project-card__title">{title}</h5>
+                <p className="project-card__description">{description}</p>
+                <div className="project-card__links">
+                    <a target="_blank" href={repoUrl}>Source Code</a>
+                    <a target="_blank" href={demoUrl}>Demo</a>
+                </div>
             </div>
         </div>
     );

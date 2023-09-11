@@ -1,16 +1,22 @@
 .project-card {
   display: flex;
   flex-direction: column;
-  & > * + * {
-    margin-top: 10px;
-  }
+  border: 1px solid tan;
 
   img {
     width: 100%;
     height: 150px;
-    object-fit: contain;
+    object-fit: cover;
     border-bottom: 1px solid tan;
-    padding: 10px;
+  }
+  &__info {
+    padding: 10px 15px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    & > * + * {
+      margin-top: 10px;
+    }
   }
   &__title {
     font-size: 1.3rem;

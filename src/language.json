@@ -5,7 +5,7 @@
   "telegram": "https://t.me/t_lezko",
   "github": "https://github.com/lezko",
   "location": "Voronezh, Russia",
-  "careerObjective": "Highly-driven computer science student with growing knowledge in frontend web development.",
+  "careerObjective": "Highly-driven computer science student with growing knowledge in frontend web development. Have been interested in this for 3 years now, got solid understanding of SPA and REST applications. Now learning React frameworks (NextJS, Remix). Ready to contribute my skills and passion to create high-quality software products.",
   "education": "BS, Computer Science, Voronezh State University. September 2021 - current.",
   "knowledgeAndConcepts": [
     "SPA", "REST", "Virtual DOM"
@@ -32,7 +32,7 @@
       "title": "Rasp Explorer",
       "description": "Handy viewer for .XLSX university time schedules.",
       "repoUrl": "https://github.com/lezko/rasp-explorer",
-      "demoUrl": "https://lezko.github.io/rasp-explorer",
+      "demoUrl": "https://lezko.github.io/rasp-explorer/?url=https://docs.google.com/feeds/download/spreadsheets/Export?key=1bKinOo7qlOW2zSFKqofkCZ9ufpCAesO964AUIHH7JEM&cc_key=",
       "img": "rasp-explorer.png"
     }
   ]
